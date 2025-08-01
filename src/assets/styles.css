@@ -1,0 +1,22 @@
+:root {
+  --primary:   #5282A5;
+  --light-bg:  #F5F7FA;
+  --border-100:#E9EFF5;
+}
+
+body {
+  background: var(--light-bg);
+  color: #212529;
+}
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-outline-primary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.navbar, .sidebar {
+  background: #fff;
+  border-bottom: 1px solid var(--border-100);
+}

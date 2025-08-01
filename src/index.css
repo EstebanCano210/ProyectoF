@@ -1,0 +1,77 @@
+/* src/index.css */
+:root {
+  --c-50:  #F5F7FA;
+  --c-100: #E9F1F5;
+  --c-200: #CFDDE8;
+  --c-300: #A4BFD5;
+  --c-400: #739EBD;
+  --c-500: #5282A5;
+  --c-600: #3F688A;
+  --c-700: #375977;
+  --c-800: #2E485E;
+  --c-900: #2A3E50;
+  --c-950: #1C2835;
+}
+
+/* Overrides de Bootstrap */
+.btn-primary {
+  background-color: var(--c-500);
+  border-color:     var(--c-500);
+}
+.btn-primary:hover {
+  background-color: var(--c-600);
+  border-color:     var(--c-600);
+}
+
+.btn-outline-primary {
+  color:           var(--c-500);
+  border-color:    var(--c-500);
+}
+.btn-outline-primary:hover {
+  color:           var(--c-50);
+  background-color: var(--c-500);
+  border-color:     var(--c-500);
+}
+
+.navbar {
+  background-color: var(--c-50);
+}
+
+.navbar .navbar-brand {
+  color: var(--c-950);
+}
+.navbar .nav-link {
+  color: var(--c-600);
+}
+.navbar .nav-link:hover {
+  color: var(--c-700);
+}
+
+/* Tarjetas */
+.card {
+  border: 1px solid var(--c-200);
+}
+.card .card-title {
+  color: var(--c-950);
+}
+.card .card-body {
+  background-color: var(--c-50);
+}
+
+/* Botones de éxito y daño personalizados */
+.btn-success {
+  background-color: var(--c-400);
+  border-color:     var(--c-400);
+}
+.btn-success:hover {
+  background-color: var(--c-500);
+  border-color:     var(--c-500);
+}
+.btn-outline-success {
+  color: var(--c-400);
+  border-color: var(--c-400);
+}
+.btn-outline-success:hover {
+  background-color: var(--c-400);
+  color: var(--c-50);
+}
