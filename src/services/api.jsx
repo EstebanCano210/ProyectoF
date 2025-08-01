@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-    baseURL: 'https://willowy-heddie-kinal65-1b21ad59.koyeb.app/EmpleaYa/v2/',
+    baseURL: import.meta.env.VITE_API_BASE_URL,
     timeout: 5000
 })
 
