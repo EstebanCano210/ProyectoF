@@ -1,11 +1,11 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-    baseURL: 'http://localhost:8000/EmpleaYa/v2/',
+    baseURL: 'https://willowy-heddie-kinal65-1b21ad59.koyeb.app/EmpleaYa/v2/',
     timeout: 5000
 })
 
-//https://willowy-heddie-kinal65-1b21ad59.koyeb.app
+//
 
 apiClient.interceptors.request.use(config => {
   const stored = localStorage.getItem('user')
